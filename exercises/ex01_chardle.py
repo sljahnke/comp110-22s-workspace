@@ -34,7 +34,7 @@ if matches_count == 0:
     print("No instances of " + single_ch + " found in " + five_ch_word)
 else: 
     if matches_count == 1:
-        print("1 instance of " + single_ch + " found in" + five_ch_word)
+        print("1 instance of " + single_ch + " found in " + five_ch_word)
     else:
         if matches_count > 1:
             print(str(matches_count) + " instances of " + single_ch + " found in " + five_ch_word)
